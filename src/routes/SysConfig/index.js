@@ -29,5 +29,9 @@ export default mergeRoute([
   {
     path: '/authority/authority',
     tmpl: AuthList
+  },
+  {
+    path: '/authority/authority123',
+    tmpl: AuthList
   }
 ])
