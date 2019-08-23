@@ -1,0 +1,24 @@
+.title-line {
+  background-color:"";
+  padding: 1px 10px;
+  font-weight: bold;
+  display: inline-table;
+  width: 100%;
+  line-height: 10px;
+  text-align: center;
+
+  & span {
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 16px;
+    margin-right: 3px;
+  }
+
+  & > .left {
+    float: left;
+  }
+
+  & > .right {
+    float: right;
+  }
+}

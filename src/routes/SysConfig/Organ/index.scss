@@ -1,0 +1,32 @@
+.contentDiv {
+  height:90vh;
+  & .my-division {
+    margin: 5px 0;
+    & .button-view {
+      & .submit {
+        margin-right: 10px;
+        margin-left: 20px;
+      }
+      & .close {
+        margin-right: 10px;
+      }
+    }
+    
+  }
+  
+  & .content1{
+    float: left;
+    width:60%;
+    margin-right: 10px;
+    height: 88vh;
+  }
+  & .content2{
+    float:left;
+    text-align:left;
+    width:39%;
+    height: 88vh;
+  }
+}
+.column-display-none {
+  display: none;
+}

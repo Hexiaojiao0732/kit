@@ -1,0 +1,71 @@
+.my-layout {
+  max-height: 100vh;
+  & .menu-box {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    & > .menu-view {
+      overflow-y: scroll;
+      overflow-x: hidden;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin-right: -17px;
+      padding-bottom: 96px;
+
+      & .ant-menu-submenu > .ant-menu-submenu-title {
+      }
+    }
+  }
+
+  & .ant-layout-content > .outer-content {
+    overflow: hidden;
+
+    & .inner-content {
+      padding: 8px;
+      background-color: #ffffff;
+      max-height: calc(100vh - 80px);
+      overflow-y: scroll;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
+
+  .logo {
+    width: 120px;
+    height: 31px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px 28px 16px 0;
+    float: left;
+  }
+  .user-span{
+    font-size: 15px;
+    color: #ffffff;
+  }
+  .welcome-div{
+    position: absolute;
+    float: right;
+    top: 0;
+      left: 1030px;
+      right: 0;
+  }
+
+  .home-layout{
+    padding: '0 5px 5px';
+    position: relative ;
+    height: 100vh;
+  }
+
+  & .sider {
+    background-color: #222632;
+    position: relative;
+  }
+}
